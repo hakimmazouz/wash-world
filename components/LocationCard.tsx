@@ -28,6 +28,7 @@ export default function LocationCard({ id, name, status }: LocationCardProps) {
   const underMaintenance = status == "maintenance";
   return (
     <Card
+      className="location-card"
       sx={{
         minWidth: 275,
         minHeight: 250,

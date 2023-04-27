@@ -24,7 +24,7 @@ export default function ProductCard({
   const dispatch = useDispatch();
   const router = useRouter();
   return (
-    <Card sx={{ minWidth: 275 }}>
+    <Card className="program-card" sx={{ minWidth: 275 }}>
       <CardContent>
         <Typography variant="h5" component="div">
           {name}

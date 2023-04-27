@@ -46,7 +46,12 @@ const ReadyScreen = ({ onStart }: { onStart: () => {} }) => (
     </Box>
 
     <Box sx={{ py: 8, justifyContent: "center", display: "flex" }}>
-      <Button variant="contained" size="large" onClick={onStart}>
+      <Button
+        className="start-wash"
+        variant="contained"
+        size="large"
+        onClick={onStart}
+      >
         Start wash
       </Button>
     </Box>
