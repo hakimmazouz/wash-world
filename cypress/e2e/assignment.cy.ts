@@ -1,7 +1,7 @@
 // [X] - For each page transition, validate the correct title (or any other page-specific requirement) is present.
 // [X] - For each of the selectable pages, validate the amount of buttons.
 // [X] - Validate the location under maintenance cannot be selected.
-// [] - For the countdown, intercept the POST-call and mock it with a shorter timer.
+// [X] - For the countdown, intercept the POST-call and mock it with a shorter timer.
 
 describe("Wash World Assignment", () => {
   it("contains 3 available locations", () => {
