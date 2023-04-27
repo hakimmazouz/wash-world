@@ -21,8 +21,8 @@ export default function WashTimer() {
     const intervalId = setInterval(() => {
       setTimeRemaining(wash.timeReminingFormatted);
       if (wash.programIsDone) {
-        dispatch(resetFlow());
         router.push("/");
+        dispatch(resetFlow());
       }
     }, 1000);
 
